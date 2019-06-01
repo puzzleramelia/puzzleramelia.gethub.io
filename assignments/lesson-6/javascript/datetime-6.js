@@ -1,3 +1,5 @@
+
 var d = new Date();
-document.getElementById("date").innerHTML = d;
+var output = d.toDateString();
+document.getElementById("date").innerHTML = output;
 
