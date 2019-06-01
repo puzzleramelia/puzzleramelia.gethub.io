@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap');
+
+header{
+    background-color: #5ABAC7;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    color: #5971fa;
+    text-shadow: 2px 2px #000000;
+    font-family: 'Roboto', sans-serif;
+}
+h2{
+    color: #525861;
+    font-family: 'Roboto', sans-serif;
+    }
+h3{
+    color: #525861;
+    font-family: 'Roboto', sans-serif;
+}
+
+h4{
+    color: #525861;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    color: #000000;
+    font-family: 'Arial', sans-serif;
+}
+
+footer{
+    background-color: #Cea290;
+    font-family: 'Arial', sans-serif;
+}
+
+.logo{
+    position: relative;
+      border: 2px black solid;
+      border-radius: 5px;
+      box-shadow: 3px 3px 3px rgb(20,18,17);
+      left: 10px;
+      top: 10px;
+}
+.LogoandHeader {
+    text-align: center;
+    display: inline;
+}
+
+.motto{
+    font-size: 40%;
+    text-align: center;
+}
+
+#section1{
+    text-align: center;
+  }
+#section2{
+    background-image:url(#);
+}
+#textbox{
+    position: relative;
+    text-align: justify;
+    max-width: 960px;
+      margin: 0 auto;
+}
+
+.primarynav {
+    font-family: 'Noto Sans JP', sans-serif;
+    display: inline-block;
+    text-decoration-color: #000000;
+    margin: 0;
+    padding: 0;
+    width: 100%; 
+
+
+}
+
+article{
+    background-color: #Cea290;
+    align-content: center;
+    margin: 5em;
+    text-align: justify;
+}
+
+
+
+
+#articlepic{
+    flex-wrap: inherit;
+    align-content: center;
+    padding: 5em;
+}
+
+#map{
+    height: 100%;
+    padding: 20em;
+
+}
+
+#section3{
+    background-color: #5ABAC7;
+    text-align: center;
+}
+.center{
+    margin-left:auto; 
+    margin-right:auto;
+}
+
+.navlist {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #Fa6f57;
+}
+
+.navi {
+  float: left;
+}
+
+li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #Cea290;
+}
+
+
+#fivedayfourcast{
+    width: 100%;
+}
+#primarynavsmall{
+    visibility: hidden;
+}
+
+.dropbtn {
+    background-color: #Fa6f57;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  #map{
+      float: left;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #Fa6f57;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #Cea290;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: #Cea290;}
