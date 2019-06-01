@@ -2,11 +2,12 @@
 <html lang="en-us">
     <head>
         <meta charset="utf-8">
-        <script type="text/javascript" src="javascript/datetime-6.js"></script>
-        <script type="text/javascript" src="javascript/hambugermenu.js"></script>
-        <link rel="stylesheet" media="screen and (min-width: 900px)" href="css/large-6.css">
+       
+        
+        
+        <link rel="stylesheet" media="screen and (min-width: 601px)" href="css/large-6.css">
         <link rel="stylesheet" media="screen and (max-width: 600px)" href="css/small-6.css">
-        <link rel="stylesheet" href="small-5.css">
+        <!--<link rel="stylesheet" href="css/small-6.css">-->
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
          <title>Preston</title>
     </head>
@@ -19,33 +20,32 @@
             <div class="motto">
             <h2>We Provide Accurate Weather Information For The Cities of Preston, Soda Springs and Haven</h2>
             </div>
-            <nav id="primarynavbig" class="primarynav">
+            <div class="topnav">
+                <nav id="primarynavbig" class="primarynav">
+                <div id="myLinks">
                 <ul class="navlist">
                 <li class="navi"><a href="#">Home</a></li>
                 <li class="navi"><a href="#">Gallery</a></li>
                 <li class="navi"><a href="#">Storm Center</a></li>
-                <li class="navi"><a href="Preston-5.html">Preston</a></li>
+                <li class="navi"><a href="Preston-6.html">Preston</a></li>
                 <li class="navi"><a href="#">Soda Springs</a></li>
                 <li class="navi"><a href="#">Haven</a></li>
                 </ul>
+                </div>
+                <a href="javascript:void(0)" class="icon" onclick="myFunction()"></a>
+                <script type="text/javascript" src="javascript/hambugermenu.js"></script>
             </nav>
-            <nav id="primarynavsmall" class="primarynav">
-                    <div class="dropdown">
-                            <button class="dropbtn">Menu</button>
-                            <div class="dropdown-content">
-                              <a href="#">Home</a>
-                              <a href="#">Gallery</a>
-                              <a href="#">Storm Center</a>
-                              <a href="Preston-5.html">Preston</a>
-                              <a href="#">Soda Springs</a>
-                              <a href="#">Haven</a>
-                            </div>
-                          </div>
-            </nav>
+            </div>
+            
+            
         </header>
         <main>
             <section id="section1">
                 <h1>Preston</h1>
+                <picture>
+                    <img id="smallpic" src="images/smallimage-6.jpeg" alt="smallpicture" media="screen and (max-width: 600px)">
+                    <img id="largepic" src="images/largeimage-6.jpeg" alt="largepicture" media="screen and (min-width: 900px)">
+                </picture>
             </section>
             <section id="section2">
                 <img id="section2backgroundimage" src="#" alt="backgroundimage">
@@ -93,8 +93,10 @@
             </section>
         </main>        
         <footer>
+            <p id="demo"></p>                   
             <p>insert text and nav here</p>
-
+            <p id="date"></p>
+            <script type="text/javascript" src="javascript/datetime-6.js"></script>
         </footer>
         
     </body>

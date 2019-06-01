@@ -67,9 +67,12 @@ footer{
 }
 
 .primarynav {
+    clear: both;
     font-family: 'Noto Sans JP', sans-serif;
     display: inline-block;
-    text-decoration-color: #000000;
+    text-decoration-color: white;
+    background: #Fa6f57;
+    text-align: left;
     margin: 0;
     padding: 0;
     width: 100%; 
@@ -89,7 +92,8 @@ article{
 
 
 #articlepic{
-    flex-wrap: inherit
+
+    flex-wrap: inherit;
     align-content: center;
     padding: 5em;
 }
@@ -121,7 +125,7 @@ article{
 }
 
 li a {
-  display: inline-block;
+  display: block;
   color: white;
   text-align: center;
   padding: 14px 16px;
@@ -132,6 +136,65 @@ li a:hover{
   background-color: #Cea290;
 }
 
-#primarynavbib{
+
+#largepic{
     visibility: hidden;
+    display: none;
 }
+
+#primarynavsmall{
+    font-family: 'Noto Sans JP', sans-serif;
+    display: block;
+    text-decoration-color: #Fa6f57;
+    margin: 0;
+    padding: 0;
+    width: 100%; 
+}
+.mobile-container {
+    max-width: 480px;
+    margin: auto;
+    background-color:#Fa6f57;
+    height: 500px;
+    color: white;
+    border-radius: 10px;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #Fa6f57;
+    position: relative;
+  }
+
+    
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  .topnav a.icon {
+    background: #Cea290;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  
+  .topnav a:hover {
+    background-color: #Cea290;
+    color: white;
+  }
+  
+  .active {
+    background-color: #Cea290;
+    color: white;
+  }
+  #smallpic{
+      width: 100%;
+  }

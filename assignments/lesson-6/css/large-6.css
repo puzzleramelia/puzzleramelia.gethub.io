@@ -136,8 +136,17 @@ li a:hover {
 #fivedayfourcast{
     width: 100%;
 }
-#primarynavsmall{
+
+
+#smallpic{
     visibility: hidden;
+    display: none;
+}
+#largepic{
+    padding: none;
+    margin: none;
+    width: 100%;
+    position: relative;
 }
 
 .dropbtn {
