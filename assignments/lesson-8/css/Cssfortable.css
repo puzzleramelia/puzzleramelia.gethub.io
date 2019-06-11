@@ -29,3 +29,6 @@ table, th, td {
   tr:nth-child(2){
       background-color: #628ca6;
   }
+  tr:nth-child(2){
+      color: white;
+  }
