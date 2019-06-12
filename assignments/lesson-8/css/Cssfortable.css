@@ -21,6 +21,8 @@ table, th, td {
   
   table:first-child{
       background-color:#e7f0ed;
+      box-shadow: 10px 10px 10px #628cab;
+
   }
   tr:nth-child(9){
     background-color: #7fb9c2;
@@ -31,5 +33,6 @@ table, th, td {
   }
   tr:nth-child(2){
       color: white;
+     
 
   }
