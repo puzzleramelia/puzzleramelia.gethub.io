@@ -199,3 +199,21 @@ li a:hover {
   #section1point5{
       text-align: center;
   }
+  #commentsection{
+    padding: 20px;
+  }
+  #personalinformation{
+    padding: 20px;
+  }
+  #storminformation{
+    padding: 20px;
+  }
+  #commentsection{
+    padding: 20px;
+  }
+  #inputinfo{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  #inputinfo h3{
+    margin: 20px;
+  }

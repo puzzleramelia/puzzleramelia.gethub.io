@@ -76,8 +76,6 @@ footer{
     margin: 0;
     padding: 0;
     width: 100%; 
-
-
 }
 
 article{
@@ -211,3 +209,8 @@ li a:hover{
     left: 16px;
     background-color: #5ABAC7;
   }
+  #inputinfo{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
