@@ -1,17 +1,4 @@
-.grid-container {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    background-color: #5ABAC7;
-    padding: 10px;
-  }
-  
-  .grid-item {
-    background-color: #5ABAC7;
-    border: 1px solid white;
-    padding: 20px;
-    font-size: 30px;
-    text-align: center;
-  }
+
   @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap');
 
@@ -173,5 +160,23 @@ footer{
       color: black;
     }
     img:hover{
-        box-shadow: 0 1px 8px black;
+      box-shadow: 15px -6px 15px 5px rgba(0,0,0,0.77);
+    }
+    .grid-container {
+      display: grid;
+      grid-template-columns: auto auto auto;
+      background-color: #5ABAC7;
+      padding: 10px;
+    }
+    
+    .grid-item {
+      background-color: #5ABAC7;
+      border: 1px solid white;
+      padding: 20px;
+      font-size: 30px;
+      text-align: center;
+    }
+    .grid-container img{
+      max-width: 100%;
+      height: auto;
     }

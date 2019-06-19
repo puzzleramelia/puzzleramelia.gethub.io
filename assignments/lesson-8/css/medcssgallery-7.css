@@ -180,3 +180,7 @@
       img:hover{
           box-shadow: 0 1px 8px black;
       }
+      .grid-container img{
+        max-width: 100%;
+        height: auto;
+      }
