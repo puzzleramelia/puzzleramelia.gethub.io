@@ -1,8 +1,8 @@
 {
   "towns" : [
   {
-    "name": "Preston",
-    "motto": "Home of the Indians",
+    "name": "Franklin",
+    "motto": "Where you will grow!",
     "yearFounded": 1788,
     "currentPopulation": 30458,
     "averageRainfall": 21,
@@ -26,7 +26,7 @@
     ]
   },
   {
-    "name": "Soda Springs",
+    "name": "Greenville",
     "motto": "Green is our way of life.",
     "yearFounded": 1805,
     "currentPopulation": 33458,
