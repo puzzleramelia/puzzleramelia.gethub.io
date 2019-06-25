@@ -260,5 +260,9 @@ li a:hover {
     padding: 0%;
     margin: 0%;
   }
+  section article {
+    width: 33%;
+    float: left;
+  }
   
   
