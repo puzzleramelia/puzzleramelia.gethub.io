@@ -1,6 +1,6 @@
 var header = document.querySelector('header');
 var section = document.querySelector('section');
-var requestURL = 'json/Towns.json';
+var requestURL = 'https://puzzleramelia.github.io/puzzleramelia.gethub.io/assignments/lesson-9/javascript/json/Towns.json';
 var request = new XMLHttpRequest();
 request.open('GET', requestURL);
 request.responseType = 'json';
