@@ -11,12 +11,12 @@
       "secretIdentity" : 1866,
       "currentpopulation" : 5204,
       "averagerainfall" : 16.65,
-      "img" : "images/",
       "powers" : [
         "March 29: Work Creek Revival",
       "July 8-12: Napoleon Dynamite Festival",
       "November 2-4: Freedom Days"
-      ]
+      ],
+      "img" : "images/jonathan-bowers-531776-unsplash.jpg"
     },
     {
       "name" : "Soda Springs",
@@ -28,7 +28,8 @@
         "February 29: Geyser Song Day",
       "May 1-6: Days of May Celebration",
       "October 15-16: Octoberfest"
-      ]
+      ],
+      "img" : "images/jonathan-bowers-531776-unsplash.jpg"
     },
     {
       "name" : "Fish Haven",
@@ -41,7 +42,8 @@
       "May 15-30: Rush the Creek Days",
       "July 24: Bear Lake Blunder Run",
       "December 12: Light the Tree"
-      ]
+      ],
+      "img" : "images/jonathan-bowers-531776-unsplash.jpg"
     }
   ]
 }
