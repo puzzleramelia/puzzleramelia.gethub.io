@@ -73,17 +73,55 @@
                    
 
                 </ul>
-                </div>
+                </div> 
             </section>
             <section id="section1point5">
-                <h3> 5 Day Forecast</h3>
-                <img src="#" id="fivedayfourcast" alt="five day forecast">
+                <!--<h3> 5 Day Forecast</h3>-->
+                <script type="text/javascript" src="js/weatherapi3.js"></script>
+                <table id="Fivedayforecase">
+                    <tr>
+                        <th colspan="5"> 5 Day Forcast</th>
+                    </tr>
+                    <tr>
+                        <td>Day 1</td>
+                        <td>Day 2</td>
+                        <td>Day 3</td>
+                        <td>Day 4</td>
+                        <td>Day 5</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img id="cc-img" src="" alt=""><br>
+                            <span id="current"></span>                        
+                        </td>
+                        <td>
+                                <img id="cc-img2" src="" alt=""><br>
+                                <span id="daytwo"></span>     
+                        </td>
+                        <td>
+                                <img id="cc-img3" src="" alt=""><br>
+                                <span id="day3"></span>     
+                        </td>
+                        <td>
+                                <img id="cc-img4" src="" alt=""><br>
+                                <span id="day4"></span>     
+                        </td>
+                        <td>
+                                <img id="cc-img5" src="" alt=""><br>
+                                <span id="day5"></span>     
+                        </td>
+                    </tr>
+
+
+                </table>
             </section>
             <article class="sec1">
                 <div class="leftcol">
-                <h2>Article Title</h2>
+                <h2>Events</h2>
                 <h4>Author Name</h4>
-                <p>insert Place holder Text</p>
+                <p id="events"></p>
+                <script src="javascript/events.js"></script>
+                        
                 </div>
                 <div class="rightcol">
                 <img id="articlepic" src="images/brooke-cagle-609873-unsplash.jpg" alt="article picture">

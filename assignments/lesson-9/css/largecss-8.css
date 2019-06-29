@@ -264,5 +264,16 @@ li a:hover {
     width: 33%;
     float: left;
   }
-  
+  #section1point5{
+    display: flex;
+    align-content: center;
+    color: #525861;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 20em;
+    margin-top: 5em;
+  }
+  #Fivedayforecase{
+    border-collapse: collapse;
+
+  }
   
