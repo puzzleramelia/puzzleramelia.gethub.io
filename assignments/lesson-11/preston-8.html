@@ -1,0 +1,171 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">               
+        <link rel="stylesheet" media="screen and (min-width: 601px)" href="css/largecss-8.css">
+        <link rel="stylesheet" media="screen and (max-width: 600px)" href="css/smallcss-8.css">
+        <title>Preston</title>
+    </head>
+    <body>
+        <header>
+            <div class="LogoandHeader">
+                <div class="logodiv">
+                    <img class="logo" src="images/Capture.JPG" alt="logo">
+                </div>
+                <div class="middle">    
+                    <h1 class="title">
+                        Weather All Seasons Idaho
+                    </h1>
+                    <div class="motto">
+                        <h2>We Provide Accurate Weather Information For The Cities of Preston, Soda Springs and Haven</h2>
+                    </div>
+                </div>
+                <div id="currentconditions">
+                    <h2>Current Conditions</h2>
+                    <div id="outputDiv">
+                </div>
+            </div>
+            </div>
+            <div class="topnav">
+                <nav class="primarynav">
+                <a href="#home"
+                class="active"></a>
+                <div id="myLinks">
+                <ul class="navlist">
+                <li class="navi"><a href="Home.html">Home</a></li>
+                <li class="navi"><a href="gallery-8.html">Gallery</a></li>
+                <li class="navi"><a href="stormcenter.html">Storm Center</a></li>
+                <li class="navi"><a href="preston-8.html">Preston</a></li>
+                <li class="navi"><a href="#">Soda Springs</a></li>
+                <li class="navi"><a href="#">Haven</a></li>
+                </ul>
+                </div>
+                <a href="javascript:void(0)" class="icon" onclick="myFunction()"></a>
+                <script type="text/javascript" src="javascript/hambugermenu.js"></script>
+            </nav>
+            </div>
+            
+            
+        </header>
+        <main>
+            <section id="section1">
+                <h1>Preston</h1>
+                <picture>
+                    <img id="smallpic" src="images/smallimage-6.jpeg" alt="smallpicture" media="screen and (max-width: 600px)">
+                    <img id="largepic" src="images/largeimage-6.jpeg" alt="largepicture" media="screen and (min-width: 900px)">
+                </picture>
+                <div id="textbox">
+                <h2>Weather Summery</h2>
+                <ul>
+                    <script type="text/javascript" src="js/weatherapi.js"></script>
+                    <script type="text/javascript" src="javascript/windchil.js"></script>
+                                      
+                    <li>Currently:<span id="currently"></span></li>
+                    <li>High: <span id="current-temp"></span> &deg;F </li>
+                    <li>Windchil: <span id="windchil"> 
+                    </span></li>
+                    <li>Humidity: <span id="humidity"></span></li>
+                    <li>Windspeed: <span id="windspeed"></span>mph</li>
+                    
+                                        
+                    </script>
+                
+                   
+
+                </ul>
+                </div> 
+            </section>
+            <section id="section1point5">
+                <!--<h3> 5 Day Forecast</h3>-->
+                <script type="text/javascript" src="js/weatherapi3.js"></script>
+                <table id="Fivedayforecase">
+                    <tr>
+                        <th colspan="5"> 5 Day Forcast</th>
+                    </tr>
+                    <tr>
+                        <td>Day 1</td>
+                        <td>Day 2</td>
+                        <td>Day 3</td>
+                        <td>Day 4</td>
+                        <td>Day 5</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img id="cc-img" src="" alt=""><br>
+                            <span id="current"></span>                        
+                        </td>
+                        <td>
+                                <img id="cc-img2" src="" alt=""><br>
+                                <span id="daytwo"></span>     
+                        </td>
+                        <td>
+                                <img id="cc-img3" src="" alt=""><br>
+                                <span id="day3"></span>     
+                        </td>
+                        <td>
+                                <img id="cc-img4" src="" alt=""><br>
+                                <span id="day4"></span>     
+                        </td>
+                        <td>
+                                <img id="cc-img5" src="" alt=""><br>
+                                <span id="day5"></span>     
+                        </td>
+                    </tr>
+
+
+                </table>
+            </section>
+            <article class="sec1">
+                <div class="leftcol">
+                <h2>Events</h2>
+                <h4>Author Name</h4>
+                <p id="events"></p>
+                <script src="javascript/events.js"></script>
+                        
+                </div>
+                <div class="rightcol">
+                <img id="articlepic" src="images/brooke-cagle-609873-unsplash.jpg" alt="article picture">
+                </div>
+            </article>
+            <section id="section3" class="sec2">
+                    <div class="leftcol">
+                    <div class="mapouter">
+                    <div class="gmap_canvas">
+                        <iframe width="465" height="435" id="gmap_canvas" src="https://maps.google.com/maps?q=preston%20idaho&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+                        </iframe><a href="https://www.bitgeeks.net">bitgeeks</a>
+                        </div>
+                        </div>
+                    </div>
+                <div class="rightcol">
+                <table class="center">
+                    <tr>
+                        <th colspan="2"><h2>Contact Information</h2></th>
+                    <tr>
+                        <td>Name</td>
+                        <td>Phone Number</td>
+                    </tr>
+                    <tr>
+                        <td>Name</td>
+                        <td>Number</td>
+                    </tr>
+                    <tr>
+                        <td>Name</td>
+                        <td>Number</td>
+                    </tr>
+                    <tr>
+                        <td>Name</td>
+                        <td>Number</td>
+                    </tr>
+                </table>
+                </div>
+                
+            </section>
+        </main>        
+        <footer>                
+            <p>insert text and nav here</p>
+            <div id="date"></div>
+            <script type="text/javascript" src="javascript/datetime-8.js"></script>
+        </footer>
+        
+    </body>
+</html>

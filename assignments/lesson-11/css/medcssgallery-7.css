@@ -1,0 +1,186 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+  
+  .grid-item {
+    background-color: #2196F3;
+    border: 1px solid white;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+  @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+  @import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap');
+  
+  header{
+      background-color: #5ABAC7;
+      font-family: 'Roboto', sans-serif;
+  }
+  
+  h1{
+      color: #5971fa;
+      text-shadow: 2px 2px #000000;
+      font-family: 'Roboto', sans-serif;
+  }
+  h2{
+      color: #525861;
+      font-family: 'Roboto', sans-serif;
+      }
+  h3{
+      color: #525861;
+      font-family: 'Roboto', sans-serif;
+  }
+  
+  h4{
+      color: #525861;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  p{
+      color: #000000;
+      font-family: 'Arial', sans-serif;
+  }
+  
+  footer{
+      background-color: #Cea290;
+      font-family: 'Arial', sans-serif;
+  }
+  
+  .logo{
+      position: relative;
+        border: 2px black solid;
+        border-radius: 5px;
+        box-shadow: 3px 3px 3px rgb(20,18,17);
+        left: 10px;
+        top: 10px;
+  }
+  .LogoandHeader {
+      text-align: center;
+      display: inline;
+  }
+  
+  .motto{
+      font-size: 40%;
+      text-align: center;
+  }
+  
+  #section1{
+      text-align: center;
+    }
+  #section2{
+      background-image:url(#);
+  }
+  #textbox{
+      position: relative;
+      text-align: justify;
+      max-width: 960px;
+        margin: 0 auto;
+  }
+  
+  .primarynav {
+      clear: both;
+      font-family: 'Noto Sans JP', sans-serif;
+      display: inline-block;
+      text-decoration-color: white;
+      background: #Fa6f57;
+      text-align: left;
+      margin: 0;
+      padding: 0;
+      width: 100%; 
+  
+  
+  }
+  .navlist {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #Fa6f57;
+    }
+    
+    .navi {
+      float: left;
+    }
+    
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    li a:hover{
+      background-color: #Cea290;
+    }
+    
+    
+    #largepic{
+        visibility: hidden;
+        display: none;
+    }
+    
+    #primarynavsmall{
+        font-family: 'Noto Sans JP', sans-serif;
+        display: block;
+        text-decoration-color: #Fa6f57;
+        margin: 0;
+        padding: 0;
+        width: 100%; 
+    }
+    .mobile-container {
+        max-width: 480px;
+        margin: auto;
+        background-color:#Fa6f57;
+        height: 500px;
+        color: white;
+        border-radius: 10px;
+      }
+      
+      .topnav {
+        overflow: hidden;
+        background-color: #Fa6f57;
+        position: relative;
+      }
+    
+        
+      .topnav #myLinks {
+        display: none;
+      }
+      
+      .topnav a {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+      }
+      
+      .topnav a.icon {
+        background: #Cea290;
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0;
+      }
+      
+      .topnav a:hover {
+        background-color: #Cea290;
+        color: white;
+      }
+      
+      .active {
+        background-color: #Cea290;
+        color: white;
+      }
+
+      img:hover{
+          box-shadow: 0 1px 8px black;
+      }
+      .grid-container img{
+        max-width: 100%;
+        height: auto;
+      }
