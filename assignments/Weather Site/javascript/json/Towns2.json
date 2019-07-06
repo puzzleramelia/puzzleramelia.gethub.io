@@ -1,0 +1,49 @@
+{
+  "squadName" : "Home",
+  "homeTown" : "Weather All Seasons",
+  "formed" : "",
+  "secretBase" : "We Provide Accurate Weather Information For The Cities of Preston, Soda Springs and Haven",
+  "active" : true,
+  "members" : [
+    {
+      "name" : "Preston",
+      "age" : "Home of Napoleon Dynamite.",
+      "secretIdentity" : 1866,
+      "currentpopulation" : 5204,
+      "averagerainfall" : 16.65,
+      "powers" : [
+        "March 29: Work Creek Revival",
+      "July 8-12: Napoleon Dynamite Festival",
+      "November 2-4: Freedom Days"
+      ],
+      "img" : "images/jonathan-bowers-531776-unsplash.jpg"
+    },
+    {
+      "name" : "Soda Springs",
+      "age" : "Historic Oregon Trail Oasis. The Soda is on Us.",
+      "secretIdentity" : 1858,
+      "currentpopulation" : 2985,
+      "averagerainfall" : 15.75,
+      "powers" : [
+        "February 29: Geyser Song Day",
+      "May 1-6: Days of May Celebration",
+      "October 15-16: Octoberfest"
+      ],
+      "img" : "images/max-larochelle-421822-unsplash.jpg"
+    },
+    {
+      "name" : "Fish Haven",
+      "age" : "This is Fish Heaven.",
+      "secretIdentity" : 1864,
+      "currentpopulation" : 501,
+      "averagerainfall" : 14.20,
+      "powers" : [
+        "April 1: How Big Was That Fish Day",
+      "May 15-30: Rush the Creek Days",
+      "July 24: Bear Lake Blunder Run",
+      "December 12: Light the Tree"
+      ],
+      "img" : "images/tom-barrett-364228-unsplash.jpg"
+    }
+  ]
+}

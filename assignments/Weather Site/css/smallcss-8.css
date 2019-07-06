@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap');
+
+header{
+    background-color: #5ABAC7;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    color: #5971fa;
+    text-shadow: 2px 2px #000000;
+    font-family: 'Roboto', sans-serif;
+}
+h2{
+    color: #525861;
+    font-family: 'Roboto', sans-serif;
+    }
+h3{
+    color: #525861;
+    font-family: 'Roboto', sans-serif;
+}
+
+h4{
+    color: #525861;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    color: #000000;
+    font-family: 'Arial', sans-serif;
+}
+
+footer{
+    background-color: #Cea290;
+    font-family: 'Arial', sans-serif;
+}
+
+.logo{
+    position: relative;
+      border: 2px black solid;
+      border-radius: 5px;
+      box-shadow: 3px 3px 3px rgb(20,18,17);
+      left: 10px;
+      top: 10px;
+}
+.LogoandHeader {
+    text-align: center;
+    display: inline;
+}
+
+.motto{
+    font-size: 40%;
+    text-align: center;
+}
+
+#section1{
+    text-align: center;
+  }
+#section2{
+    background-image:url(#);
+}
+#textbox{
+    border-radius: 25px;
+    position: relative;
+    text-align: justify;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.primarynav {
+    clear: both;
+    font-family: 'Noto Sans JP', sans-serif;
+    display: inline-block;
+    text-decoration-color: white;
+    background: #Fa6f57;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    width: 100%; 
+}
+
+article{
+    background-color: #Cea290;
+    align-content: center;
+    text-align: justify;
+}
+#section1point5{
+    visibility: hidden;
+    display: none;
+}
+
+#map{
+    height: 100%;
+    padding: 20em;
+
+}
+
+#section3{
+    background-color: #5ABAC7;
+    text-align: center;
+}
+.center{
+    margin-left:auto; 
+    margin-right:auto;
+}
+
+.navlist {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #Fa6f57;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover{
+  background-color: #Cea290;
+}
+
+
+#largepic{
+    visibility: hidden;
+    display: none;
+}
+
+#primarynavsmall{
+    font-family: 'Noto Sans JP', sans-serif;
+    display: block;
+    text-decoration-color: #Fa6f57;
+    margin: 0;
+    padding: 0;
+    width: 100%; 
+}
+.mobile-container {
+    max-width: 480px;
+    margin: auto;
+    background-color:#Fa6f57;
+    height: 500px;
+    color: white;
+    border-radius: 10px;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #Fa6f57;
+    position: relative;
+  }
+
+    
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  .topnav a.icon {
+    background: #Cea290;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  
+  .topnav a:hover {
+    background-color: #Cea290;
+    color: white;
+  }
+  
+  .active {
+    background-color: #Fa6f57;
+    color: white;
+  }
+  #smallpic{
+      width: 100%;
+  }
+  #section1{
+    position: relative;
+    text-align: center;
+    color: black;
+  }
+
+  #textbox{
+      padding: 20px;
+    position: absolute;
+    bottom: 20px;
+    left: 16px;
+    background-color: #5ABAC7;
+  }
+  #inputinfo{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .mapouter{
+    position:relative;
+    text-align:right;
+    height:435px;
+    width:465px;
+  }
+    .gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    height:435px;
+    width:465px;
+  }
+  #articlepic{
+    max-width: 95%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.leftcol{
+  display: block;
+  margin-left: 13px;
+  padding: 13px;
+  margin-right: auto;
+}
+.image{
+  max-width: 100%;
+}

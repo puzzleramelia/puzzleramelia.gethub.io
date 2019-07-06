@@ -1,0 +1,38 @@
+table, th, td {
+    font-family: Ubuntu, sans-serif;
+    border: 1px solid #e7ffed;
+    border-collapse: collapse;
+    text-align: center;
+  }
+  th, td {
+    padding: 5px;
+    
+  } 
+  #color {
+      background-color: #628ca6;
+  }
+
+   th {
+      background-color: #7fb9c2;
+      font-size: 2em;
+
+  }
+ 
+  
+  table:first-child{
+      background-color:#e7f0ed;
+      box-shadow: 10px 10px 10px #628cab;
+
+  }
+  tr:nth-child(9){
+    background-color: #7fb9c2;
+    font-size: .8em;
+  }
+  tr:nth-child(2){
+      background-color: #628ca6;
+  }
+  tr:nth-child(2){
+      color: white;
+     
+
+  }
