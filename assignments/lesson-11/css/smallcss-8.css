@@ -228,3 +228,6 @@ li a:hover{
   padding: 13px;
   margin-right: auto;
 }
+.image{
+  max-width: 100%;
+}
