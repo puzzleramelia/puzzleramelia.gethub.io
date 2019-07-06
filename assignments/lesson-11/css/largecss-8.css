@@ -276,4 +276,6 @@ li a:hover {
     border-collapse: collapse;
 
   }
-  
+  .image{
+    max-width: 100%;
+  }

@@ -1,7 +1,7 @@
 let weatherRequest3 = new XMLHttpRequest();
 
-let apiURLstring3 = 'https://api.openweathermap.org/data/2.5/forecast/daily?id=524901&cnt={5}&APPID={1c256240d233d9ee96f640fc2b0ed703}'
-weatherRequest3.open('Get', apiURLstring, true);
+let apiURLstring3 = 'https://api.openweathermap.org/data/2.5/forecast/daily?id=524901&cnt=5}&APPID={1c256240d233d9ee96f640fc2b0ed703}'
+weatherRequest3.open('Get', apiURLstring3, true);
 
 weatherRequest3.send();
 
