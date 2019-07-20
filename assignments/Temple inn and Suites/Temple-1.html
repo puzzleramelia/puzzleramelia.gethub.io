@@ -8,6 +8,76 @@
     <link rel="stylesheet" media="screen and (max-width: 600px)" href="css/Small-1.css">
     <link rel="stylesheet" media="screen and (min-width: 601px) and (max-width: 1280px)" href="css/medcss-1.css">
     <link rel="stylesheet" media="screen and (min-width: 1281px)" href="css/Large-1.css">
+    <script>
+        var header = document.querySelector('header');
+        var section = document.querySelector('section');
+        var requestURL = JSON.parse(json/templejson.json);
+        var request = new XMLHttpRequest();
+        request.open('GET', requestURL);
+        request.responseType = 'json';
+        request.send();
+            request.onload = function() {
+                var superHeroes = request.response;
+                //populateHeader(superHeroes);
+                showHeroes(superHeroes);
+  
+                //function populateHeader(jsonObj) {
+                    //var myH1 = document.createElement('h1');
+                    //myH1.textContent = jsonObj['squadName'];
+                   // header.appendChild(myH1);
+  
+                    //var myPara = document.createElement('p');
+                    //myPara.textContent =  jsonObj['homeTown'] + jsonObj['formed'];
+                    //header.appendChild(myPara);
+                //}
+            }
+            function showHeroes(jsonObj) {
+  var heroes = jsonObj['members'];
+      
+  for (var i = 0; i < heroes.length; i++) {
+    var myArticle = document.createElement('article');
+    var myH2 = document.createElement('h2');
+    var myPara1 = document.createElement('p');
+    var myPara2 = document.createElement('p');
+    var myPara3 = document.createElement('p');
+    var myPara4 = document.createElement('p');
+    var myPara5 = document.createElement('p');
+    var myList = document.createElement('ul');
+    var myPara6 = document.createElement('img')
+    myPara6.className = "image";
+  
+  
+    myH2.textContent = heroes[i].name;
+    myPara1.textContent = 'Temple Name: ' + heroes[i].secretIdentity;
+    myPara2.textContent = 'Temple Address: ' + heroes[i].age;
+    myPara3.textContent = 'Current Dedicated: ' + heroes[i].currentpopulation;
+    myPara4.textContent = 'Average Groundbreaking: ' + heroes[i].averagerainfall;
+    myPara5.textContent = 'Town Announced:';
+    myPara6.src = heroes[i].img;
+  
+        
+    var superPowers = heroes[i].powers;
+    for (var j = 0; j < superPowers.length; j++) {
+      var listItem = document.createElement('li');
+      listItem.textContent = superPowers[j];
+      myList.appendChild(listItem);
+    }
+  
+    myArticle.appendChild(myH2);
+    myArticle.appendChild(myPara1);
+    myArticle.appendChild(myPara2);
+    myArticle.appendChild(myPara3);
+    myArticle.appendChild(myPara4);
+    myArticle.appendChild(myPara5);
+    myArticle.appendChild(myList);
+    myArticle.appendChild(myPara6);
+  
+    section.appendChild(myArticle);
+    
+  }
+  }
+  
+    </script>
   </head>
 
   <body>
@@ -61,7 +131,16 @@
         closure schedule (from a JSON source), and summary—current weather information obtained from a third party API. -->
 
       <section>
+            <img id="smallpic" src="images/SmallGilberttemple.jpg" alt="smallpicture" media="screen and (max-width: 600px)">
+            <img id="largepic" src="images/largeGilberttemp.jpg" alt="largepicture" media="screen and (min-width: 1281px)">
+            <img id="medpic" src="images/medGilberttemp.jpg" alt="GilbertAZtemp" media="screen and (max-width: 1280px)">
 
       </section>
+      
+    <script>
+        var header = document.querySelector('header');
+        var section = document.querySelector('section');
+        
+    </script>
   </body>
 </html>

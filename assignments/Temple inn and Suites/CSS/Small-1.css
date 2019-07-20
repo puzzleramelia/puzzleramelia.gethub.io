@@ -188,6 +188,9 @@ li a:hover{
       width: 100%;
   }
   #section1{
+    display: flex;
+    flex-flow: nowrap;
+    justify-content: center;
     position: relative;
     text-align: center;
     color: black;
