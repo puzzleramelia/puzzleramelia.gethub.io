@@ -18,7 +18,7 @@
 "Tuesday, 24 December 2019 - Thursday, 26 December 2019",
 "Tuesday, 31 December 2019 - Wednesday, 1 January 2020"
       ],
-      "img" : "images/jonathan-bowers-531776-unsplash.jpg"
+      "img" : "images/tucson-arizona-temple-small.jpeg"
     },
     {
       "name" : "Gilbert Arizona Temple",
@@ -32,7 +32,7 @@
         "Tuesday, 24 December 2019 - Wednesday, 25 December 2019",
         "Tuesday, 31 December 2019"
       ],
-      "img" : "images/max-larochelle-421822-unsplash.jpg"
+      "img" : "images/SmallGilberttemple.jpeg"
     },
     {
       "name" : "Snowflake Arizona",
@@ -46,7 +46,7 @@
         "Tuesday, 24 December 2019 - Wednesday, 25 December 2019",
         "Tuesday, 31 December 2019 - Wednesday, 1 January 2020"
       ],
-      "img" : "images/tom-barrett-364228-unsplash.jpg"
+      "img" : "images/snowflake_temple.jpeg"
     },
   {
     "name" : "Mesa Arizona",
@@ -57,7 +57,7 @@
     "powers" : [
       "Temple is currently under Construction"
     ],
-    "img" : "images/tom-barrett-364228-unsplash.jpg"
+    "img" : "images/mesa-temple small.jpg"
   }
 ]
 }
