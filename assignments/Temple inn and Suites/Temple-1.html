@@ -8,6 +8,83 @@
     <link rel="stylesheet" media="screen and (max-width: 600px)" href="css/Small-1.css">
     <link rel="stylesheet" media="screen and (min-width: 601px) and (max-width: 1280px)" href="css/medcss-1.css">
     <link rel="stylesheet" media="screen and (min-width: 1281px)" href="css/Large-1.css">
+    
+  </head>
+
+  <body>
+
+      <header>
+        <div class="LogoandHeader">
+          <div class="logodiv">
+              <img class="logo" src="images/logosized.JPG" alt="logo">
+          </div>
+          <div class="middle">    
+              <h1 class="title">
+                  Temple Inn and Suites
+              </h1>
+              <div class="motto">
+                  <h2>The owner-operated company caters to temple workers, patrons, 
+                      and their families <br>by providing specialized services and 
+                      accommodations that meet the needs of those patrons</h2>
+              </div>
+          </div>
+          <div id="currentconditions">
+              <h2>Current Conditions</h2>
+              <div id="outputDiv">
+          </div>
+      </div>
+      </div>
+      <div class="topnav">
+          <nav class="primarynav">
+          <a href="#home"
+          class="active"></a>
+          <div id="myLinks">
+          <ul class="navlist">
+          <li class="navi"><a href="Home-1.html">Home</a></li>
+          <li class="navi"><a href="Resevations-1.html">Reservations</a></li>
+          <li class="navi"><a href="Services-1.html">Services</a></li>
+          <li class="navi"><a href="Contact-1.html">Contact</a></li>
+          <li class="navi"><a href="Temple-1.html">Temple</a></li>
+          </ul>
+          </div>
+          <a href="javascript:void(0)" class="icon" onclick="myFunction()"></a>
+          <script type="text/javascript" src="JavaScript/Hambugermenu-1.js"></script>
+      </nav>
+      </div>
+      <div id="Headerwhite">
+      <div class ="pagetitlediv">
+          <h1 class ="pagetitle"> Temple </h1>
+          </div>
+          <!--•	The temple page describes the details for at least four temples of your choice 
+            providing information about the address, telephone, email, services, history, 
+            ordinance schedule, session schedule, temple 
+            closure schedule (from a JSON source), and summary—current weather information obtained from a third party API. -->
+    
+          <section>
+                <img id="smallpic" src="images/SmallGilberttemple.jpg" alt="smallpicture" media="screen and (max-width: 600px)">
+                <img id="largepic" src="images/largeGilberttemp.jpg" alt="largepicture" media="screen and (min-width: 1281px)">
+                <img id="medpic" src="images/medGilberttemp.jpg" alt="GilbertAZtemp" media="screen and (max-width: 1280px)">
+    
+          </section>
+          <section>
+            <h2>Current Temp in Gilbert: <span id="currentemp"></span></h2>
+            <script type="text/javascript" src="JavaScript/WeatherapiGilbert.js"></script>
+            <h2>Current Temp in Snowflake: <span id="current-temp"></span></h2>
+            <script type="text/javascript" src="JavaScript/WeatherapiSnowflake.js"></script>
+            <h2>Current Temp in Tuscon: <span id="currenttemp1"></span></h2>
+            <script type="text/javascript" src="JavaScript/Weatherapituscon.js"></script>
+            <h2>Current Temp in Mesa: <span id="mesatemp"></span></h2>
+            <script type="text/javascript" src="JavaScript/weatherapimesa.js"></script>
+          </section>
+      </div>
+      </header>
+       
+      
+    <script>
+        var header = document.querySelector('header');
+        var section = document.querySelector('section');
+        
+    </script>
     <script>
         var header = document.querySelector('header');
         var section = document.querySelector('section');
@@ -77,75 +154,6 @@
   }
   }
   
-    </script>
-  </head>
-
-  <body>
-
-      <header>
-        <div class="LogoandHeader">
-          <div class="logodiv">
-              <img class="logo" src="images/logosized.JPG" alt="logo">
-          </div>
-          <div class="middle">    
-              <h1 class="title">
-                  Temple Inn and Suites
-              </h1>
-              <div class="motto">
-                  <h2>The owner-operated company caters to temple workers, patrons, 
-                      and their families <br>by providing specialized services and 
-                      accommodations that meet the needs of those patrons</h2>
-              </div>
-          </div>
-          <div id="currentconditions">
-              <h2>Current Conditions</h2>
-              <div id="outputDiv">
-          </div>
-      </div>
-      </div>
-      <div class="topnav">
-          <nav class="primarynav">
-          <a href="#home"
-          class="active"></a>
-          <div id="myLinks">
-          <ul class="navlist">
-          <li class="navi"><a href="Home-1.html">Home</a></li>
-          <li class="navi"><a href="Resevations-1.html">Reservations</a></li>
-          <li class="navi"><a href="Services-1.html">Services</a></li>
-          <li class="navi"><a href="Contact-1.html">Contact</a></li>
-          <li class="navi"><a href="Temple-1.html">Temple</a></li>
-          </ul>
-          </div>
-          <a href="javascript:void(0)" class="icon" onclick="myFunction()"></a>
-          <script type="text/javascript" src="JavaScript/Hambugermenu-1.js"></script>
-      </nav>
-      </div>
-      <div id="Headerwhite">
-      <div class ="pagetitlediv">
-          <h1 class ="pagetitle"> Temple </h1>
-          </div>
-          <!--•	The temple page describes the details for at least four temples of your choice 
-            providing information about the address, telephone, email, services, history, 
-            ordinance schedule, session schedule, temple 
-            closure schedule (from a JSON source), and summary—current weather information obtained from a third party API. -->
-    
-          <section>
-                <img id="smallpic" src="images/SmallGilberttemple.jpg" alt="smallpicture" media="screen and (max-width: 600px)">
-                <img id="largepic" src="images/largeGilberttemp.jpg" alt="largepicture" media="screen and (min-width: 1281px)">
-                <img id="medpic" src="images/medGilberttemp.jpg" alt="GilbertAZtemp" media="screen and (max-width: 1280px)">
-    
-          </section>
-      </div>
-      </header>
-      <section>
-
-      </section>
-     
-      
-    <script>
-        var header = document.querySelector('header');
-        var section = document.querySelector('section');
-        
     </script>
   </body>
 </html>

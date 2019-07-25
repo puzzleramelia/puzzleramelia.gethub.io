@@ -241,3 +241,9 @@ li a:hover{
 .pagetitle{
     display: inline-block;
 }
+#hotelroom, #kitchet, #bed, #flowers{
+  max-width: 100%;
+}
+.templepic{
+  max-width: 100%;
+}

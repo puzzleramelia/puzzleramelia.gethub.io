@@ -263,7 +263,7 @@ li a:hover {
     margin: 0%;
   }
   section article {
-    width: 33%;
+    width: 85%;
     float: left;
   }
   #section1point5{
@@ -317,4 +317,10 @@ li a:hover {
 }
 #Headerwhite{
   background-color: white;
+}
+#hotelroom, #kitchet, #bed, #flowers{
+  max-width: 100%;
+}
+.templepic{
+  max-width: 100%;
 }
